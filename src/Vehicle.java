@@ -1,15 +1,9 @@
 public abstract class Vehicle {
 
-    protected int spaceNeeded;
-
     protected String numberPlate;
 
-    public Vehicle(int spaceNeeded, String numberPlate){
-        this.spaceNeeded = spaceNeeded;
+    public Vehicle(String numberPlate){
         this.numberPlate = numberPlate;
-    }
-    public int getSpaceNeeded() {
-        return spaceNeeded;
     }
     public String getNumberPlate() {
         return numberPlate;
